@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="http://www.okta.com/kxmgc0lcHCXIUTPBEQRD"><md:IDPSSODescriptor WantAuthnRequestsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><md:KeyDescriptor use="signing"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIICozCCAgygAwIBAgIGAUhrnphXMA0GCSqGSIb3DQEBBQUAMIGUMQswCQYDVQQGEwJVUzETMBEG
+A1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEU
+MBIGA1UECwwLU1NPUHJvdmlkZXIxFTATBgNVBAMMDGFwZXhyZW5kZXJlZDEcMBoGCSqGSIb3DQEJ
+ARYNaW5mb0Bva3RhLmNvbTAeFw0xNDA5MTIyMDQ2MDhaFw00NDA5MTIyMDQ3MDhaMIGUMQswCQYD
+VQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsG
+A1UECgwET2t0YTEUMBIGA1UECwwLU1NPUHJvdmlkZXIxFTATBgNVBAMMDGFwZXhyZW5kZXJlZDEc
+MBoGCSqGSIb3DQEJARYNaW5mb0Bva3RhLmNvbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA
+rukZnw7OA5d939dUbu/7EweXpF76HEYCISfMHRrLwPxRK+OEq+oD+ySPRSm05IAQx9JlexnY7gqv
+sZkcvxGkSnmVlD8Te2n56vnoo5U+fhA/uz8b8FNQ+EIXAltv7MUr4czUA08aTm7HppnAbc303hAz
+jHVx7aysZh4LUjP8fiECAwEAATANBgkqhkiG9w0BAQUFAAOBgQAfVoo6UtoFCrFcMcjXG01//1U0
+ANivlbPxA82Lv8bixnTVaOLnAddzoMMVVf/aS8JomrO1k011ajt2MUchnS4J4bs6vusN08WhIxxk
+Cje/dj1HVsArAOJFpxtH/SjniFtZRWiBhOsoTtUSntFCp7jI0Bvh5SXZ/Qj6zwN8HUOrGw==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat><md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat><md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://apexrendered.okta.com/app/splunk/kxmgc0lcHCXIUTPBEQRD/sso/saml"></md:SingleSignOnService><md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://apexrendered.okta.com/app/splunk/kxmgc0lcHCXIUTPBEQRD/sso/saml"></md:SingleSignOnService></md:IDPSSODescriptor></md:EntityDescriptor>

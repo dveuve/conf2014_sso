@@ -1,0 +1,27 @@
+<EntityDescriptor entityID="urn:splunkweb:splunk.dvsplunk.com" xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIICuDCCAaACCQCJitoh4Y/2mTANBgkqhkiG9w0BAQUFADAeMRwwGgYDVQQDExNz
+cGx1bmsuZHZzcGx1bmsuY29tMB4XDTE0MDkxNTE1MTIyOVoXDTI0MDkxNDE1MTIy
+OVowHjEcMBoGA1UEAxMTc3BsdW5rLmR2c3BsdW5rLmNvbTCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBAKer1asOc4TA6cOevbY157FBW12IKsDCn+Vwsn+C
+wm5ApPzuzKexruNNeKuIT/ukIIkqwjdNAtOMHY4Hw5uaKXYJsc4fCaHbg7/tWdBh
+6rONuA/3WqX81mS5NJEbqf4InCyIbdGImg3Wr7YLaCiKttWf/jq4C/tqpG9fNVZg
+bWDazsVNNo5FjB2E4vpVO4vMkSYkyptDDzBFGC/xeSFOi3lVi4eDtQZxgjgMOS+q
+fC48cAr7cOzQUZ215nvzPOIEHO8l+qFx4t4L24UMiSisWPl2pbE5qnwknaQLh8Yx
+8Fhs9B8n4vkNPtmIEPhcCG5hqhNEbpLa8WZlFGXvonS5gFMCAwEAATANBgkqhkiG
+9w0BAQUFAAOCAQEAQpsaR4J4LxEpA4X+CWqn1lvuzM0e6skrUMnLZzXvhQ0Q9lQg
+YQHuFNhudQtzKLXIsb84+AEmON2Y6kQBL6nJnAzRfXyDOvA3l+zkkiIpbhiUurjV
+OQixQl+1jgbPwhfc/VAjocjbrh9s2fdlKD+vBPsqKBO5bhGExo4ehea4U73PZqqp
+C3zVIPAtmXpMSvoMGxEXBCpPVDPxwY7CsGW8d0H0BaYq7vWFboy17GjdwrEE4BIM
+prAlkSY4SyhYn9UjFIapjkFGFs2mQcfli0ieFEazwovzx9t2dzDuSu6Jjok2bN8v
+12k5WmK45VGARdpHB5LM09icmGvrJPPUJXsDJg==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </KeyDescriptor>
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://splunk.dvsplunk.com/secret/endpoint/logout"/>
+    <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://splunk.dvsplunk.com/secret/endpoint/postResponse" index="0"/>
+  </SPSSODescriptor>
+</EntityDescriptor>
